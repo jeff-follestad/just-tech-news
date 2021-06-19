@@ -10,24 +10,6 @@ Vote.init(
       primaryKey: true,
       autoIncrement: true
     },
-    // What needs to go here?
-  },
-  {
-    sequelize,
-    timestamps: false,
-    freezeTableName: true,
-    underscored: true,
-    modelName: 'vote'
-  }
-);
-
-Vote.init(
-  {
-    id: {
-      type: DataTypes.INTEGER,
-      primaryKey: true,
-      autoIncrement: true
-    },
     user_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -53,6 +35,5 @@ Vote.init(
     modelName: 'vote'
   }
 );
-
 
 module.exports = Vote;
