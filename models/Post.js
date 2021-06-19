@@ -54,6 +54,9 @@ Post.init(
       }
     }
   },
+  
+  
+  
   {
     sequelize,
     freezeTableName: true,
